@@ -23,7 +23,7 @@ def home():
         longitude = data_lat["iss_position"]["longitude"]
         latitude = data_lat["iss_position"]["latitude"]
 
-        url = f"https://api.geoapify.com/v1/geocode/reverse?lat={latitude}&lon={longitude}&type=postcode&apiKey=64480870a66340e989754865c3dd370c"
+        url = f"https://api.geoapify.com/v1/geocode/reverse?lat={latitude}&lon={longitude}&type=postcode&apiKey=enter-the-API-key-from-geoapify"
 
         headers = CaseInsensitiveDict()
         headers["Accept"] = "application/json"
